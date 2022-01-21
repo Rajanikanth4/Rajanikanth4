@@ -1,14 +1,9 @@
-// import logo from './logo.svg';
-import './App.css';
-import First from './First'
+import "./App.css"
+function First(){
 
-function App() {
-  return (
-    <div >
-          <First/>
-        {/* <h1 className='h1'>Welcome to the training of React JS</h1>
-        <h2 className='h2'>Training to work in Trangile Service</h2> */}
-        {/* <table className="table" border={2} align="center">
+    return(
+       <div>
+        <table className="table" border={2} align="center">
           <th className='coloumn' colSpan={6}>USER DETAILS</th>
           <tr >
             <th>Name</th>
@@ -74,29 +69,7 @@ function App() {
             <td>Andra pradesh</td>
             <td>2000</td>
           </tr>
-        </table> */}
-        <a href='https://www.flipkart.com/'>wwelcome to flipcart shopping!</a>
-        <ol start="101">
-          <li>apple</li>
-          <li>banana</li>
-          <li>orange</li>
-        </ol>
-        <ol type="I">
-          <li>apple</li>
-          <li>banana</li>
-          <li>orange</li>
-        </ol>
-        <ul type="circle">
-          <li>apple</li>
-          <li>banana</li>
-          <li>orange</li>
-        </ul>
-        <dl>
-            <dt>Training Classes</dt>
-            <dd>class for React Js.</dd>
-            </dl>
-        </div>
-  );
-}
+        </table>       </div>
+    )};
 
-export default App;
+export default First;
